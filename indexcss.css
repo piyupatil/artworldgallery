@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 11, 2016, 7:05:40 AM
+    Author     : PradnyaPatil
+*/
+
+
+  body {
+      position: relative; 
+  }
+ blockquote{
+      margin-left: 20%;
+      margin-right: 20%;
+  }
+  .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  .navbar {
+      margin-bottom: 0px;
+  }
+
+  .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+  #home {padding-top:50px;height:550px;color: #fff; background-color: #1E88E5;alignment-adjust: auto;}
+  #services {padding-top:50px;height:550px;color: #fff; background-color: #673ab7;}
+  #portfolio {padding-top:50px;height:550px;color: #fff; background-color: #ff9800;}
+  #registration {padding-top:50px;height:550px;color: #fff; background-color: #00bcd4;}
+  #consumer {padding-top:50px;height:550px;color: #fff; background-color: #009688;}
+ #contact{padding-top:50px;height:550px;color: #fff; background-color: #1E88E5;}
+  h1{
+      text-align: center;
+      font-size: 500%;
+      margin-bottom: 5%;
+  }
+  blockquote{
+      font-size: 160%;
+  }
+ 
+  img{
+      height:120px;
+      width:120px
+  }
+  .img-circle{
+      width: 250px;
+      height: 250px;
+  }
+  .img-rounded{
+      width: 250px;
+      height: 250px;
+  }
+  .thumbnail{
+      width: 270px;
+      height: 300px;
+  }
+  h4{
+      color:black;
+  }
